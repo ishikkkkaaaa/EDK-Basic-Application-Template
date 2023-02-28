@@ -2,10 +2,10 @@
 
 ### Setting up the Environment
 
-Setup
+- Setup
 `edksetup.bat`
 
-Building the Application
+- Building the Application
 `Built -p nameOfApplication\nameOfApplication.dsc -a X64 -b RELEASE`
 
 ### Pre-Requirements
