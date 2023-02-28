@@ -6,7 +6,7 @@
 `edksetup.bat`
 
 - Building the Application
-`Built -p nameOfApplication\nameOfApplication.dsc -a X64 -b RELEASE`
+`Build -p nameOfApplication\nameOfApplication.dsc -a X64 -b RELEASE`
 
 ### Pre-Requirements
 - Visual studio Community 2017 => https://visualstudio.microsoft.com/vs/older-downloads/
