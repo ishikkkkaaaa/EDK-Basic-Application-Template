@@ -1,0 +1,22 @@
+# SVN revision, automatically updated by SVN
+$Revision: 6607 $
+
+# major.minor.maintenance version values
+
+#  The major version indicates the platform generation, or any other major
+#  development effort, for which the driver is being built.  It is the same
+#  across all drivers for a given generation.
+majorstring=dpf1
+
+#  The minor version should be incremented whenever any change is made
+#  to a driver.  It is reset to 0 when the major string is changed.
+minor=0
+
+#  The maintenance version is incremented when it is necessary to branch
+#  a driver in order to create a point-fix.  It is incremented when any
+#  additional point-fixes need to be made on the branch.
+maintenance=0
+
+#  Name to display when reporting the version (quotes are required)
+displayname="Network Module Package"
+

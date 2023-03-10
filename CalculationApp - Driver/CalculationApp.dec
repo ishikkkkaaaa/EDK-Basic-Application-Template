@@ -1,0 +1,11 @@
+[Defines]
+    DEC_SPECIFICATION              = 0x00010005
+    PACKAGE_NAME                   = CalculationApp
+    PACKAGE_GUID                   = fef76a76-1c2b-41d0-9dfd-3d3a520ca7ff
+    PACKAGE_VERSION                = 0.01
+
+[Includes]
+    Include
+
+[Protocols]
+    gCalculationAppGuid = { 0xbde7e242, 0xadd8, 0x431c, { 0x97, 0x53, 0x52, 0x9b, 0xc, 0x78, 0x13, 0xfd } }

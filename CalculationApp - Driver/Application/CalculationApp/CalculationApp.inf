@@ -1,0 +1,27 @@
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = CalculationApp
+  FILE_GUID                      = 043c2206-0ca0-4391-923f-d2585da5c32a
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = CalculationAppEntry
+
+[Sources]
+    CalculationApp.c
+    CalculationApp_VERSION.txt
+
+[Packages]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  CalculationApp/CalculationApp.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+  BaseLib
+  UefiBootServicesTableLib
+
+  
+[Protocols]
+  gCalculationAppGuid

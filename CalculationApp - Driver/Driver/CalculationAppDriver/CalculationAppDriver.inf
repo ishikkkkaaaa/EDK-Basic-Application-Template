@@ -1,0 +1,29 @@
+
+[Defines]
+    INF_VERSION                     = 0x00010016
+    BASE_NAME                       = CalculationAppDriver
+    FILE_GUID                       = 5b1016a9-0462-45e0-ac55-d237c6c287a8
+    MODULE_TYPE                     = DXE_DRIVER
+    VERSION_STRING                  = 0.1
+    ENTRY_POINT                     = CalculationAppDriverEntry
+
+[Sources]
+    CalculationAppDriver.c
+    CalculationAppDriver_VERSION.txt
+
+[Packages]
+    MdePkg/MdePkg.dec
+    MdeModulePkg/MdeModulePkg.dec
+    CalculationApp/CalculationApp.dec
+
+[LibraryClasses]
+    UefiDriverEntryPoint
+    UefiLib
+    BaseMemoryLib
+    MemoryAllocationLib
+    UefiBootServicesTableLib    
+
+[Protocols]
+    gCalculationAppGuid
+[Depex]
+    TRUE
